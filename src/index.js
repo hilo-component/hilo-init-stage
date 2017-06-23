@@ -33,7 +33,10 @@ export default class initStage {
   }
 
   onResizeWindowElement = () => {
-    const names = ['body > h1', '#qrcode', 'body > .highlight', 'body > .header'];
+    const names = [
+      'body > h1', '#qrcode', 'body > .highlight', 'body > .header',
+      '.container .header', '.container > .highlight',
+    ];
     if (window.innerWidth < 768) {
       this.stageMobileShow(names, 'none');
     } else {
@@ -53,7 +56,7 @@ export default class initStage {
     const container = document.querySelector('.container');
     if (container) {
       if (s === 'none') {
-        container.style.cssText = 'width: 100%; max-width: auto;';
+        container.style.cssText = 'width: 100%; max-width: 100%;';
         root.style.padding = '0';
         document.body.style.margin = '0';
       } else {
