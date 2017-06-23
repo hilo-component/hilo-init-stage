@@ -918,7 +918,7 @@ var initStage = function () {
     this.dpr = window.devicePixelRatio;
 
     this.onResizeWindowElement = function () {
-      var names = ['body > h1', '#qrcode', 'body > .highlight', 'body > .header'];
+      var names = ['body > h1', '#qrcode', 'body > .highlight', 'body > .header', '.container .header', '.container > .highlight'];
       if (window.innerWidth < 768) {
         _this.stageMobileShow(names, 'none');
       } else {
@@ -938,7 +938,7 @@ var initStage = function () {
       var container = document.querySelector('.container');
       if (container) {
         if (s === 'none') {
-          container.style.cssText = 'width: 100%; max-width: auto;';
+          container.style.cssText = 'width: 100%; max-width: 100%;';
           root.style.padding = '0';
           document.body.style.margin = '0';
         } else {
