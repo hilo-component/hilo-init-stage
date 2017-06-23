@@ -1,11 +1,11 @@
-# hilo-parallax
+# hilo-init-stage
 
 ---
 
 ## Install
 
 ```
-tnpm i @ali/hilo-parallax
+tnpm i hilo-init-stage
 ```
 
 ## Development
@@ -17,10 +17,10 @@ npm start
 
 ## Example
 
-http://localhost:8301/examples/
+http://localhost:8300/examples/
 
 
 
 ## License
 
-hilo-parallax is released under the MIT license.
+hilo-init-stage is released under the MIT license.

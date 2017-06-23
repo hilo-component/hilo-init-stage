@@ -1,14 +1,13 @@
 {
-  "name": "hilo-parallax",
+  "name": "hilo-init-stage",
   "version": "0.0.1",
-  "description": "hilo parallax container ",
+  "description": "hilo component init stage container ",
   "keywords": [
     "hilo",
-    "parallax",
-    "hilo-parallax",
-    "container"
+    "stage",
+    "component"
   ],
-  "homepage": "https://github.com/hilo-component/hilo-parallax",
+  "homepage": "https://github.com/hilo-component/hilo-init-stage",
   "files": [
     "lib",
     "es"
@@ -18,10 +17,10 @@
   "author": "155259966@qq.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:hilo-component/hilo-parallax.git"
+    "url": "git@github.com:hilo-component/hilo-init-stage.git"
   },
   "bugs": {
-    "url": "https://github.com/hilo-component/hilo-parallax/issues"
+    "url": "https://github.com/hilo-component/hilo-init-stage/issues"
   },
   "licenses": "MIT",
   "config": {
