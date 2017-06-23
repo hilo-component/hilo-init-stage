@@ -49,7 +49,7 @@ export default class initStage {
       }
       dom.style.display = s;
     });
-    const root = document.querySelector('body > .example');
+    const root = document.querySelector('body .example');
     const container = document.querySelector('.container');
     if (container) {
       if (s === 'none') {
